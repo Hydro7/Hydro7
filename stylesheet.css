@@ -12,7 +12,7 @@ body, html{
 }
 
 #main-background{
-    background-image: url(images/main-background.jpg);
+    background-image: url(images/main-background.avif);
        filter:blur(7px);
        -webkit-filter: blur(7px);
         height: 100%;
