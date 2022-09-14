@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(20, 20, 20);
+    animation:background-animation 3s;
+}
+
+@keyframes background-animation{
+    0% {
+        background-color: rgb(0, 0, 0);
+    }
+
+    100% {
+        background-color: rgb(20, 20, 20);
+    }
+}
+
+::selection {
+    color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .1);
+}
+#welcome-text{
+    text-align: center;
+    font-size: 350%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30%;
+    margin-bottom: 25%;
+    color: rgba(255, 255, 255, .8);
+    animation: welcome-text-animation 3s;
+}
+
+
+#contacts-bar{
+    text-align: center;
+    color:rgba(150, 150, 150, 9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: contacts-animation 3s;
+}
+
+
+
+Button{
+    background-color: rgba(0, 0, 0, .8);
+    padding: .9%;
+    margin:.9%;
+    color: rgba(255, 255, 255, .8);
+    border:1px groove rgba(255, 255, 255, .6);
+    border-radius: 15%;
+    transition: all .3s;
+}
+Button:hover{
+    background-color: rgba(255, 255, 255, .8);
+    color: rgba(0, 0, 0, .8);
+    border:1px groove rgba(0, 0, 0, .8);
+    border-radius: 15%;
+}
+
+@keyframes welcome-text-animation {
+    0% {
+        opacity: 0;
+        color: rgba(0, 0, 0, .8);
+        font-size: 100%;
+        transform:rotate(50deg);
+    }
+
+    50% {
+        transform:rotate(-25deg);
+    }
+
+    100% {
+        opacity: 100;
+        color: rgba(255, 255, 255, .8);
+        font-size: 350%;
+        transform:rotate(0deg);
+
+    }
+}
+
+
+@keyframes contacts-animation {
+    0% {
+        left: 10%;
+        color:rgba(58, 57, 57, 9);
+        opacity: 0%;
+    }
+    50% {
+        color:rgba(58, 57, 57, 9); 
+    }
+
+    100% {
+        color:rgba(150, 150, 150, 9);
+        opacity: 100%;
+        left: 38%;
+    }
+}
