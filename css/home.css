@@ -36,7 +36,10 @@ body {
 }
 
 
-
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
 Button{
     background-color: rgba(0, 0, 0, .8);
     padding: .9%;
@@ -90,4 +93,114 @@ Button:hover{
         opacity: 100%;
         left: 38%;
     }
+};
+
+#music-player {
+     /* marg */
+}
+
+
+
+/* #currently-playing {
+    color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 0, 0, .6);
+    font-size: 20px;
+    margin: 20px;
+} */
+#playtoggle-button {
+    background-color: rgba(255, 0, 0, .4);
+
+}
+
+#whoiam-container{
+    text-align: center;
+    color:rgba(150, 150, 150, .9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: contacts-animation 3s;
+    font-size: 20px;
+
+}
+#whoiam-question {
+    font-size: 75px;
+    color: rgba(255, 255, 255, .9)
+}
+#whoiam {
+    font-size: 20px;
+}
+#experience-text {
+    font-size: 75px;
+    color: rgba(255, 255, 255, .7)
+}
+#experience {
+    font-size: 20px;
+}
+#goodat-text {
+    font-size: 65px;
+    color: rgba(255, 255, 255, .7)
+    
+}
+#goodat {
+    font-size: 20px;
+}
+#projects-text {
+    font-size: 75px;
+    color: rgba(255, 255, 255, .7)
+    
+}
+#litchymc {
+    color: rgb(0, 217, 255);
+    font-size: 25px;
+    border: 2px solid  rgb(0, 217, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: all .3s;
+
+}
+#litchymc-role{
+    color:red;
+    font-size: 20px;
+
+}
+
+#randomcraft {
+    color: rgb(255, 170, 0);
+    font-size: 25px;
+    border: 2px solid  rgb(255, 170, 0);
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all .3s;
+    
+}
+#randomcraft-role{
+    color:rgb(0, 76, 255);
+    font-size: 20px;
+}
+
+#wikihub {
+    color: rgb(206, 206, 206);
+    font-size: 25px;
+    border: 2px solid  rgb(206, 206, 206);
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all .3s;
+
+}
+#wikihub-role{
+    color:red;
+    font-size: 20px;
+
+}
+
+
+#litchymc:hover{
+    background-color: rgba(0, 217, 255, .2);;
+}
+
+
+#randomcraft:hover{
+    background-color: rgba(255, 170, 0, .2);
+}
+
+#wikihub:hover{
+    background-color: rgba(206, 206, 206, .2);
 }
